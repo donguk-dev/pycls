@@ -232,19 +232,6 @@ For 8 GPU training, we apply 5 epoch gradual warmup, following the [ImageNet in 
 <th valign="bottom">model id</th>
 <th valign="bottom">download</th>
 <!-- TABLE BODY -->
-<!-- ROW RegNetY-200MF -->
-<tr>
-<td align="left"><a href="configs/dds_baselines/regnety/RegNetY-200MF_dds_8gpu.yaml">RegNetY-200MF</a></td>
-<td align="center">0.2</td>
-<td align="center">3.2</td>
-<td align="center">2.2</td>
-<td align="center">1024</td>
-<td align="center">12</td>
-<td align="center">3.3</td>
-<td align="center">29.7</td>
-<td align="center">176245422</td>
-<td align="center"><a href="https://dl.fbaipublicfiles.com/pycls/dds_baselines/176245422/RegNetY-200MF_dds_8gpu.pyth">model</a></td>
-</tr>
 <!-- ROW RegNetY-400MF -->
 <tr>
 <td align="left"><a href="configs/dds_baselines/regnety/RegNetY-400MF_dds_8gpu.yaml">RegNetY-400MF</a></td>
@@ -310,19 +297,6 @@ For 8 GPU training, we apply 5 epoch gradual warmup, following the [ImageNet in 
 <td align="center">160906834</td>
 <td align="center"><a href="https://dl.fbaipublicfiles.com/pycls/dds_baselines/160906834/RegNetY-3.2GF_dds_8gpu.pyth">model</a></td>
 </tr>
-<!-- ROW RegNetY-4.0GF -->
-<tr>
-<td align="left"><a href="configs/dds_baselines/regnety/RegNetY-4.0GF_dds_8gpu.yaml">RegNetY-4.0GF</a></td>
-<td align="center">4.0</td>
-<td align="center">20.6</td>
-<td align="center">12.3</td>
-<td align="center">512</td>
-<td align="center">69</td>
-<td align="center">17.5</td>
-<td align="center">20.6</td>
-<td align="center">160906838</td>
-<td align="center"><a href="https://dl.fbaipublicfiles.com/pycls/dds_baselines/160906838/RegNetY-4.0GF_dds_8gpu.pyth">model</a></td>
-</tr>
 <!-- ROW RegNetY-6.4GF -->
 <tr>
 <td align="left"><a href="configs/dds_baselines/regnety/RegNetY-6.4GF_dds_8gpu.yaml">RegNetY-6.4GF</a></td>
@@ -335,32 +309,6 @@ For 8 GPU training, we apply 5 epoch gradual warmup, following the [ImageNet in 
 <td align="center">20.1</td>
 <td align="center">160907112</td>
 <td align="center"><a href="https://dl.fbaipublicfiles.com/pycls/dds_baselines/160907112/RegNetY-6.4GF_dds_8gpu.pyth">model</a></td>
-</tr>
-<!-- ROW RegNetY-8.0GF -->
-<tr>
-<td align="left"><a href="configs/dds_baselines/regnety/RegNetY-8.0GF_dds_8gpu.yaml">RegNetY-8.0GF</a></td>
-<td align="center">8.0</td>
-<td align="center">39.2</td>
-<td align="center">18.0</td>
-<td align="center">512</td>
-<td align="center">115</td>
-<td align="center">29.3</td>
-<td align="center">20.1</td>
-<td align="center">161160905</td>
-<td align="center"><a href="https://dl.fbaipublicfiles.com/pycls/dds_baselines/161160905/RegNetY-8.0GF_dds_8gpu.pyth">model</a></td>
-</tr>
-<!-- ROW RegNetY-12GF -->
-<tr>
-<td align="left"><a href="configs/dds_baselines/regnety/RegNetY-12GF_dds_8gpu.yaml">RegNetY-12GF</a></td>
-<td align="center">12.1</td>
-<td align="center">51.8</td>
-<td align="center">21.4</td>
-<td align="center">512</td>
-<td align="center">152</td>
-<td align="center">36.9</td>
-<td align="center">19.7</td>
-<td align="center">160907100</td>
-<td align="center"><a href="https://dl.fbaipublicfiles.com/pycls/dds_baselines/160907100/RegNetY-12GF_dds_8gpu.pyth">model</a></td>
 </tr>
 <!-- ROW RegNetY-16GF -->
 <tr>
